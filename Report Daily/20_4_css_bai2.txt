@@ -1,0 +1,58 @@
+-  bài tập : 
+-------------------------------------------------------------------------------------------
+***List 40 properties của css + giải thích chức năng
++ background:
+background-color: set màu cho thuộc tính
+background gradient: set độ tương phản màu sắc đậm nhạt custom theo radial, linear
+background imgage : set hình ảnh làm background
++ box:
+border: set border cho 1 khối
+border image : có thể set hình ảnh làm border cho khối
+border radius: điều chỉnh viền border
+border shadow: tạo bóng cho khối
+opacity: set độ mờ cho content
+outline : set outline
+overflow auto: khi nội dung content vượt quá block sẽ tự động xuống dòng
++ color:
+text color: set màu cho text
++layout:
+column, grid: tạo bố cục cho content
+display: thiết lập kiểu hiển thị cho content,thiết lập hiển thị theo kiểu inline, block hay inline-block hoặc flex
+visibility hidden /block: cho phép đối tượng có hiển thị hay không
++text: 
+letter spacing: set khoảng cách các chữ cái
+line height: set động cao của dòng
+overflow-wrap: khi dòng vượt quá width của block sẽ tự động xuống dòng
+text align : căn chỉnh vị trí của content center, left ,right hay justify
+tab size : set khoảng cách các chữ
+text decoration: set định dạng hiển thị có thể set ngạch chân cho text
+text -indent: set tab đầu dòng của 1 đoạn văn bản
+text-shadow: set bóng cho text
++transform:
+rotate: set transform xoay bao nhiêu độ, góc xoay có thể set 2D hay 3D
+scale: phóng to thu nhỏ đối tượng
+translate: set vị trí hiển thị cho đối tượng
+matrix
+skew
++animation:
+@keyframes: định nghĩa 1 animation bắt đầu từ đâu tới đâu
+animation-name: đặt tên animation
+animation-duration: thời gian thực hiện animation
+animation-delay:độ trễ
+animation-interation-count
+animation-direction: định nghĩa kiể ví dụ normal
+--------------------------------------------------------------------------------------------
+
+*** Đưa ra đinh nghĩa về Selector , cấu trúc của css 
+- Hiểu đơn giản CSS Selector là thứ cho phép bạn nhắm mục tiêu tới các phần tử HTML để áp dụng các thuộc tính CSS cho chúng.
+- cấu trúc css:
+ gồm selector + declartion(property, value)
+- các loại selector
+1. Basic CSS Selectors : select tới tên thẻ, class, id , hoặc tất cả *
+2. Descendant CSS Selectors: select đến các phần con ví dụ : .class-cha .class-con
+3. Multiple CSS Selector: select nhiều đối tượng ví dụ : .class1, .class2, class3
+4. Combination CSS Selectors : cho phép bạn chọn thành phần rất cụ thể bằng nhiều tham chiếu.
+5. Sibling CSS Selectors
+6. Pseudo CSS Selectors
+7. Pseudo CSS Selectors: 
+8. Attribute CSS Selectors
