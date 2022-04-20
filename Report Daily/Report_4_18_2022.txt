@@ -1,0 +1,45 @@
+1. Các nhóm thẻ cơ bản trong html:
+* Structural tags:
+<html>,<body><a>,<article>,<div>,<h1>-<h6>,<section>,<head>,<header>,<footer>,...
+* Metadata tags:
+<base>,<link>,<meta>,<style>,<title>
+* Form tags:
+<from>,<fieldset>,<label>,<option>,<input>,<select>,<textarea>,<button>
+* Formating tags:
+<b>,<strong>,<sub>,<sup>,<blockquote>,<small>,<big>
+* List tags:
+<menu>,<ul>,<li>,<ol>,<dd>,<dl>
+* Table tags:
+<table>,<caption>,<thead>,<th>,<tbody>,<tr>,<td>
+* Scripting tags:
+<script>
+* Embedded content tags:
+<audio>,<canvas>,<iframe>,<video>
+------------------------------------------------------------------------------
+2. Tag name (thẻ ngữ nghĩa) khác nhau gì so với thẻ bình thường ?
+- Thẻ ngữ nghĩa là thẻ thể hiện mục đích sử dụng của thẻ ngay ở tên của chúng
+ví dụ: 
+thẻ <table> sử dụng cho việc tạo table
+thẻ <Header>,<Section>,<Footer>,...sử dụng để phân chia rõ ràng nội dung từ phần của đoạn văn bản
+thẻ <audio> cho video
+....
+---------------------------------------------------------------------------------
+3. Khác nhau giữa thẻ inline và thẻ block
+- Thẻ inline:
++ là thẻ có width,height vừa bằng nội dung content mà thẻ đó chứa và tự động xuống dòng khi vượt quá độ rộng
++ chỉ có thể set margin, padding left và right
+- Thẻ block
++ Là thẻ có width chiếm chọn 1 line chứa thẻ đó.
++ có thể set được hết margin, padding cả 4 hướng
+
+------------------------------------------------------------------------------------
+4. Box sizig là gì ?
+- box-sizing là một thuộc tính sẽ giúp bạn có thể tính toán và làm chủ được kích thước của một phần tử dựa vào thuộc tính width và height đã được thiết lập bên trong.
+Hiện tại box-sizing có hỗ trợ một số giá trị như sau:
+
++ content-box:
+ Giá trị mặc định, nghĩa là giá trị width và height chỉ áp dụng cho khu vực nội dung bên trong, không bao gồm padding, border và margin.
++ border-box:
+ Khi thiết lập giá trị này, thì width và heigh sẽ bao gồm cho cả phần nội dung, padding và border nhưng không bao gồm margin.
++ padding-box:
+ Với giá trị này thì width và height chỉ bao gồm cho phần nội dung và padding, không bao gồm border và margin.
