@@ -1,0 +1,129 @@
+
+.main {
+    margin: 40px 20%;
+    padding: 28px;
+    width: 443px;
+    border: 1px solid #dbd3d3;
+    box-shadow: aquamarine;
+    box-shadow: 5px 5px 10px 1px #dbd3d3;
+    border-radius: 10px;
+}
+.dropdown-menu{
+    padding: 0 0;
+    margin: 0;
+}
+.btn-primary {
+    color: #040404;
+    background-color: #ffffff;
+    border-color: #c5c8cb;
+}
+.btn-primary:hover {
+    color: rgb(5, 0, 0);
+    border-color: #c5c8cb;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: rgb(5, 0, 0);
+    border-color: #c5c8cb;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0 rgb(38 143 255 / 50%);
+}
+/*------------------------------------------------*/
+a {
+    color: #c9cfd5;
+    text-decoration: underline;
+    background-color: transparent;
+}
+.select {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 1px soli black;
+    border: 1px solid #b9b3b3;
+  
+    border-radius: 10px;
+    width: 385px;
+}
+
+.select-date {
+    width: 188px;
+    border-right: 1px solid #e3e3e3;
+    height: 73px;
+    padding: 10px 17px;
+}
+.select-guests {
+    width: 188px;
+   
+    height: 73px;
+    padding: 10px 17px;
+}
+.title-select {
+    font-weight: 600;
+}
+.title-price {
+    font-weight: 600;
+    font-size: 24px;
+}
+sub {
+    bottom: -1.15em;
+    font-size: 19px;
+}
+.title.d-flex {
+    margin-bottom: -5px;
+}
+.choose.d-flex {
+    margin-top: 47px;
+    border-bottom: 1px solid #b9b3b3;
+    padding-bottom: 26px;
+}
+.choose1.d-flex {
+    margin-top: 27px;
+    border-bottom: 1px solid #b9b3b3;
+    padding-bottom: 26px;
+}
+.date {
+    font-weight: 600;
+}
+.time, .join-gue {
+    font-size: 14px;
+    color: #585f64;
+}
+.choose-person {
+    margin-left: auto;
+}
+button.btn-choose {
+    margin-top: 9px;
+    width: 103px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #ef7c99;
+    color: #fdfeff;
+    font-weight: 600;
+    border: none;
+}
+.show-more-date {
+    margin-top: 25px;
+    /* width: 300px; */
+}
+button.show-more {
+    width: 100%;
+    height: 61px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: white;
+    color: #919191;
+    border: 2px solid;
+}
+.gift-click {
+    margin-top: 25px;
+    /* padding: 5%; */
+}
+a.gift {
+    padding-left: 32%;
+    font-weight: 600;
+    color: #919191;
+}
