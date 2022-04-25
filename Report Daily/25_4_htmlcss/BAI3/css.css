@@ -106,3 +106,46 @@ span.cong {
 span.vol {
     margin-left: 13px;
 }
+.show-info-detail {
+    display: flex;
+    border-bottom: 2 solid blanchedalmond;
+    /* border: aliceblue; */
+   
+    border-bottom: 1px solid #cdced2;
+}
+.description {
+    font-weight: 500;
+    padding-bottom: 12px;
+    color: #909398;
+    font-size: 14px;
+    border-bottom: 1px solid #cdced2;
+}
+.detail {
+    font-weight: 500;
+    padding-left: 32px;
+    padding-bottom: 3px;
+    color: #909398;
+    font-size: 14px;
+}
+.info-detail {
+    margin-top: 22px;
+    font-size: 14px;
+}
+.totals {
+    display: flex;
+    margin-top: 35px;
+}
+button.add-cart {
+    margin-left: auto;
+    margin-right: 16px;
+    border: none;
+    background-color: #6388d8;
+    color: white;
+    font-weight: 600;
+    width: 137px;
+    border-radius: 25px;
+}
+.price-all {
+    font-weight: 600;
+    color: #575a63;
+}
