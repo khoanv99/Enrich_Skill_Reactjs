@@ -1,0 +1,30 @@
+.price {
+    display: flex;
+    padding: 10px 40px;
+}
+.info-detail {
+    padding-top: 20px;
+}
+.price-for-one {
+    padding-left: 20px;
+    font-weight: 900;
+    font-size: 17px;
+}
+.add {
+    display: flex;
+}
+span {
+    padding: 2px;
+    font-size: 20px;
+}
+button.addtocart {
+    margin-left: auto;
+    margin-right: 20px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: #ffd682;
+    font-weight: 600;
+}
