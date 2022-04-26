@@ -86,7 +86,7 @@ h4 {
     width: 100px;
     margin: 10px 0px;
 }
-span.tru {
+button.tru {
     background-color: #f6f6f6;
     padding: 3px 8px;
     /* width: 42px; */
@@ -96,8 +96,9 @@ span.tru {
     /* font-size: 17px; */
     font-weight: bold;
     color: #e3e3e3;
+    border: none;
 }
-span.cong {
+button.cong {
     margin-left: 11px;
     background-color: #f6f6f6;
     padding: 3px 8px;
@@ -108,6 +109,7 @@ span.cong {
     /* font-size: 17px; */
     font-weight: bold;
     color: #e3e3e3;
+    border: none;
 }
 span.vol {
     margin-left: 13px;
