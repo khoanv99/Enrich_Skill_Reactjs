@@ -5,7 +5,7 @@
     left: 20px;
     top: 18px;
     background-color: white;
-    /* background-color: #edf0e9; */
+    background-color: #f6f7fb;
     width: 552px;
     height: 441px;
     border-radius: 5px;
@@ -68,8 +68,14 @@ h4 {
     margin-left: 22px;
     margin-top: 6px;
 }
-.info-right {
-    background-color: #f6f7fb;
+
+.info-left {
+    z-index: 10;
+    border-bottom: 441px solid white;
+    /* border-left: 25px solid transparent; */
+    border-right: 140px solid transparent;
+    height: 0;
+    width: 41%;
 }
 .choos-number-product {
     padding-left: 5px;
@@ -148,4 +154,59 @@ button.add-cart {
 .price-all {
     font-weight: 600;
     color: #575a63;
+}
+div.do {
+    padding: 1px 5px;
+    height: 10px;
+    width: 4px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 12px;
+}
+div.xanhduong {
+    padding: 1px 5px;
+    height: 10px;
+    width: 4px;
+    background-color: rgb(17, 0, 255);
+    border-radius: 50%;
+    margin-left: 12px;
+
+}
+div.xanhla {
+    padding: 1px 5px;
+    height: 10px;
+    width: 4px;
+    background-color: rgb(0, 255, 85);
+    border-radius: 50%;
+    margin-left: 12px;
+}
+div.vang {
+    padding: 1px 5px;
+    height: 10px;
+    width: 4px;
+    background-color: rgb(238, 255, 0);
+    border-radius: 50%;
+    margin-left: 12px;
+}
+div.tim {
+    padding: 1px 5px;
+    height: 10px;
+    width: 4px;
+    background-color: rgb(153, 0, 255);
+    border-radius: 50%;
+    margin-left: 12px;
+}
+.color-title {
+    color: #548e28;
+    font-size: 9px;
+    font-weight: 600;
+    /* margin-left: 50px; */
+}
+.select-color.d-flex {
+    margin-left: 50px;
+    margin-top: 12px;
+}
+.gr-mau.d-flex {
+    padding-top: 2px;
+    margin-left: 19px;
 }
